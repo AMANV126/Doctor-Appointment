@@ -172,7 +172,7 @@ const forgotpassword = async (req, res) => {
       from: "amanverma9304@gmail.com",
       to: email,
       subject: "Reset Password Link",
-      text: `http://localhost:3000/resetpassword/${user._id}/${token}`,
+      text: `https://doctor-appointment-frontend-ebon.vercel.app/resetpassword/${user._id}/${token}`,
     };
     console.log(mailOptions);
 
